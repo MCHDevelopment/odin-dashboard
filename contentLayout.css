@@ -1,8 +1,22 @@
 
 .contentArea{
     display: grid;
-    grid-template-columns: 40% 40% 20%;
+    grid-template-columns: 80% 20%;
     grid-template-rows: 100%;
+}
+
+.contentSpace{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
+    margin-left: 2%;
+}
+
+.contentHeader{
+    color: #ecfdf5;
+    font-weight: bold;
+    font-size: 1.25rem;
+    align-content: center;
 }
 
 .contentRow{
