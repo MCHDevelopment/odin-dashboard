@@ -12,6 +12,6 @@
 
 .contentMenue{
     display: grid;
-    grid-template-rows: 40% 60%;
+    grid-template-rows: 30% 70%;
     background-color:#d1fae5;
 }
