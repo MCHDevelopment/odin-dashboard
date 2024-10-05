@@ -1,5 +1,7 @@
 .contentMenueUpper {
     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
     grid-template-columns: 60% 40%;
 }
 
@@ -10,6 +12,8 @@
 
 .contentMenueSearchIconArea {
     display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
     place-items: center;
     justify-content: end;
 }
@@ -37,31 +41,35 @@
 
 .contentMenueProfileArea{
     display: grid;
-    grid-template-columns: 20% 20% 40%;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 10% 50%;
 }
 
 .contentMenueAlert{
     display: grid;
-    justify-content: center;
-    align-content: center;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    place-items: center;
+    justify-content: end;
 }
 
 .bellIcon{
-    width: 80%;
-    height: 80%;
+    width: 75%;
+    height: 75%;
 }
 
 .contenMenueProfilePicture{
     display: grid;
     grid-template-columns: 100%;
+    grid-template-rows: 100%;
     justify-content: center;
     align-content: center;
 }
 
 .profilePicture{
     padding: 5%;
-    height: 90%;
-    width: 90%;
+    height: 100%;
     border-radius: 50%;
 }
 
