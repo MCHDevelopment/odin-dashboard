@@ -1,11 +1,53 @@
+.sideBarTop{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 40% 60%;
+}
+
 .sidebarTopImage{
     display: grid;
     place-items: center;
-    color: aquamarine;
 }
 
 .sidebarTopText{
+    display: grid;
+    align-items: center;
     color: #065f46;
-    font-size: 80%;
+    font-size: 1.75rem;
+    text-align: left;
+}
+
+.sideBarNavigation{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+}
+
+.sideBarUpperNavigation{
+    display: grid;
+    grid-template-rows: 12% 12% 12% 12% 12% 12%;
+    grid-template-columns: 100%;
+}
+
+.sideBarLowerNavigation{
+    background-color: aqua;
+}
+
+.sideBarNavigationElement{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 20% 80%;
+}
+
+.sideBarNavigationElementImage{
+    display: grid;
+    place-items: center;
+}
+
+.sideBarNavigationElementText{
+    display: grid;
+    align-items: center;
+    color: #065f46;
+    font-size: 1.5rem;
     text-align: left;
 }

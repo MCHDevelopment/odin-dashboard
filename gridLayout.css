@@ -14,26 +14,6 @@
     background-color: #34d399;
 }
 
-.sideBarHeader{
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 40% 60%;
-}
-
-.sideBarNavigation{
-    display: grid;
-    grid-template-rows: 50% 50%;
-    grid-template-columns: 100%;
-}
-
-.sideBarUpperNavigation{
-    background-color: blueviolet;
-}
-
-.sideBarLowerNavigation{
-    background-color: aqua;
-}
-
 .content{
     display: grid;
     grid-template-rows: 15vw 85vw;
