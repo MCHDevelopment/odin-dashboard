@@ -35,8 +35,45 @@
     background-color: lightyellow;
 }
 
+.contentMenueProfileArea{
+    display: grid;
+    grid-template-columns: 20% 20% 40%;
+}
+
+.contentMenueAlert{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+
+.bellIcon{
+    width: 80%;
+    height: 80%;
+}
+
+.contenMenueProfilePicture{
+    display: grid;
+    grid-template-columns: 100%;
+    justify-content: center;
+    align-content: center;
+}
+
+.profilePicture{
+    padding: 5%;
+    height: 90%;
+    width: 90%;
+    border-radius: 50%;
+}
+
+.contentMenueNickname{
+    align-content: center;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
 .contentMenueLower {
     display: grid;
     grid-template-columns: 60% 40%;
-    background-color: orange;
 }

@@ -2,6 +2,7 @@
 .contentArea{
     display: grid;
     grid-template-columns: 40% 40% 20%;
+    grid-template-rows: 100%;
 }
 
 .contentRow{

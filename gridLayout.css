@@ -16,7 +16,7 @@
 
 .content{
     display: grid;
-    grid-template-rows: 15vw 85vw;
+    grid-template-rows: 15% 85%;
     grid-template-columns: 100%;
     background-color: #065f46;
 }
