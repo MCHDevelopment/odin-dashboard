@@ -20,8 +20,48 @@
 }
 
 .contentRow{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
     border-style: solid;
     border-color: brown;
+    width: 100%;
+}
+
+.announcementArea{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 10% 50%;
+    justify-content: center;
+}
+
+.announcementPanel{
+    background-color: #d1fae5;
+    width: 80%;
+    height: 80%;
+    padding: 5%;
+    border-radius: 10%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 33% 33% 33%;
+}
+
+.announcementPanelText{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 20% 80%;
+}
+
+.announcementAreaTagline{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.announcementAreaInfo{
+    box-shadow: inset;
+    font-size: small;
+    color: grey
 }
 
 .contentMenue{
