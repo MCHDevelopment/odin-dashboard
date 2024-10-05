@@ -1,0 +1,36 @@
+
+.contentMenueUpper{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: rebeccapurple;
+}
+
+.contentMenueSearch{
+    display: grid;
+    grid-template-columns: 20% 70%;
+    background-color: red;
+}
+
+.contentMenueSearchIcon{
+    display: grid;
+    place-items: center;
+    background-color: yellow;
+
+    height: 0.9fr;
+}
+
+.contentMenueSearchfield{
+    background-color: gray;
+    display: grid;
+    place-items: center;
+}
+
+.contentMenueSearchInput{
+    display: grid;
+}
+
+.contentMenueLower{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    background-color: orange;
+}

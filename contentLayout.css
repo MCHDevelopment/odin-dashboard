@@ -1,0 +1,16 @@
+
+.contentArea{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+
+.contentRow{
+    border-style: solid;
+    border-color: brown;
+}
+
+.contentMenue{
+    display: grid;
+    grid-template-rows: 40% 60%;
+    background-color:#d1fae5;
+}

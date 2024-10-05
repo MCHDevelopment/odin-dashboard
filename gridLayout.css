@@ -20,18 +20,3 @@
     grid-template-columns: 100%;
     background-color: #065f46;
 }
-
-.contentMenue{
-    display: grid;
-    background-color:#d1fae5;
-}
-
-.contentArea{
-    display: grid;
-    grid-template-columns: 40% 40% 20%;
-}
-
-.contentRow{
-    border-style: solid;
-    border-color: brown;
-}
