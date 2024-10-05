@@ -1,0 +1,11 @@
+.sidebarTopImage{
+    display: grid;
+    place-items: center;
+    color: aquamarine;
+}
+
+.sidebarTopText{
+    color: #065f46;
+    font-size: 80%;
+    text-align: left;
+}
