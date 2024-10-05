@@ -1,0 +1,53 @@
+.container {
+    display: grid;
+    grid-template-columns: 15vw 85vw;
+    grid-template-rows: 100vh;
+    padding: 0;
+    margin: 0;
+  }
+
+.sideBar{
+    display: grid;
+    grid-template-rows: 15% 85%;
+    grid-template-columns: 100%;
+}
+
+.sideBarHeader{
+    background-color: aquamarine;
+}
+
+.sideBarNavigation{
+    display: grid;
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 100%;
+}
+
+.sideBarUpperNavigation{
+    background-color: blueviolet;
+}
+
+.sideBarLowerNavigation{
+    background-color: aqua;
+}
+
+.content{
+    display: grid;
+    grid-template-rows: 15vw 85vw;
+    grid-template-columns: 100%;
+    background-color: blue;
+}
+
+.contentMenue{
+    display: grid;
+    background-color: bisque;
+}
+
+.contentArea{
+    display: grid;
+    grid-template-columns: 40% 40% 20%;
+}
+
+.contentRow{
+    border-style: solid;
+    border-color: brown;
+}
