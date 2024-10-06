@@ -61,7 +61,11 @@
 .announcementAreaInfo{
     box-shadow: inset;
     font-size: small;
-    color: grey
+    color: grey;
+    border-style: none;
+    border-color: darkslategrey;
+    border-bottom-width: 0.1em;
+    border-bottom-style: inset;
 }
 
 .contentMenue{
