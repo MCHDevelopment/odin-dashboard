@@ -94,3 +94,49 @@
     margin-left: 20%;
     align-self: center;
 }
+
+.contentPanelArea{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    grid-template-columns: 50% 50%;
+}
+
+
+.contentPanel{
+    background-color: #d1fae5;
+    width: 80%;
+    height: 85%;
+    margin: 5%;
+    border-radius: 6%;
+
+    border-style: none;
+    border-left-style: solid;
+    border-left-color: #a16207;
+    border-left-width: thick;
+    border-top-left-radius: 0%;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 65% 25%;
+}
+
+.contentPanelCaption{
+    font-weight: bold;
+    margin: 5%;
+}
+
+.contenPanelText{
+    margin: 5%;
+}
+
+.contentPanelIcons{
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    justify-items:right;
+    text-align: right;
+}
+
+.panelIcon{
+    height: 70%;
+}
